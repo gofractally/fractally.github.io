@@ -6,4 +6,4 @@ author: Steve Pavlina
 categories:
   - article
 ---
-Hello World\!
+Hello World\! (two)
