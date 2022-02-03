@@ -1,0 +1,61 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fractally - The Next Generation of DAOs</title>
+    <link href="/assets/css/nav.css" rel="stylesheet" media="all" class="default"/>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="{{site.favicon}}" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/style.css" rel="stylesheet" media="all" class="default"/>
+</head>
+
+<body>
+    <div class="main">
+
+<video id="herovideo" playsinline="" muted loop loop="" autoplay="" preload="auto" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); min-width: calc(100% + 2px); min-height: calc(100% + 2px); opacity: 1; max-height: calc(100% + 2px);"><source type="video/mp4" src="https://fractally.com/wp-content/uploads/2022/01/Fractally-DAO-Hero.mp4"></video>
+
+        <h1>Web Zone</h1>
+
+        <div class="nav bottom-nav">
+            <ul>
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Blog</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Video</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+   </body>
+
+<script>
+var main = document.querySelector('.main');
+var nav = document.querySelector('.nav');
+
+
+window.onscroll = function () {
+
+    if (window.pageYOffset > (main.offsetHeight - nav.offsetHeight)) {
+        nav.classList.remove('bottom-nav');
+        nav.classList.add('top-nav');
+    } else {
+        nav.classList.add('bottom-nav');
+        nav.classList.remove('top-nav');
+
+    }
+}
+</script>
+
+</html>
+
+
