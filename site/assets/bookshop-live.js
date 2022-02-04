@@ -4947,9 +4947,23 @@
   // bookshop-import-file:components/button/button.jekyll.html__bookshop_file__
   var button_jekyll_default2 = button_jekyll_default;
 
+  // component-library/components/content/content.jekyll.html
+  var content_jekyll_default = '<div class="c-content c-content--{{ include.type }}">\n    {% if include.type == "note" %}{% bookshop_include tag text="Note" %}{% endif %}\n    {{ include.content_html }}\n</div>';
+
+  // bookshop-import-file:components/content/content.jekyll.html__bookshop_file__
+  var content_jekyll_default2 = content_jekyll_default;
+
+  // component-library/shared/jekyll/page.jekyll.html
+  var page_jekyll_default = '{% comment %}\n    # This this include is used on pages where an array structure\n    # is used to build the page on CloudCannon, and you want to enable\n    # live previewing of new components as they are added.\n    # This component expects a property "content_blocks"\n    # to be passed that is an array of bookshop components.\n{% endcomment %}\n{% for block in include.content_blocks %}\n    {% comment %}\n        # The bind parameter here passes the inner fields of block to the component.\n        # Imagine it like the ...spread operator in JavaScript.\n    {% endcomment %}\n    {% bookshop {{block._bookshop_name}} bind=block %}\n{% endfor %}';
+
+  // bookshop-import-file:shared/jekyll/page.jekyll.html__bookshop_file__
+  var page_jekyll_default2 = page_jekyll_default;
+
   // bookshop-import-glob:(.jekyll.html)
   var files = {};
   files["components/button/button.jekyll.html"] = button_jekyll_default2;
+  files["components/content/content.jekyll.html"] = content_jekyll_default2;
+  files["shared/jekyll/page.jekyll.html"] = page_jekyll_default2;
   var jekyll_default = files;
 
   // bookshop-import-config:bookshop.config.js
