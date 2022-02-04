@@ -1,0 +1,8 @@
+[component]
+structures = []
+label = "button"
+description = ""
+icon = ""
+tags = []
+
+[props]
