@@ -10,6 +10,7 @@ encoding: utf-8
 
 # Build settings
 theme: null
+source: site
 plugins:
   - jekyll-feed
   - jekyll-sitemap
