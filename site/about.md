@@ -1,13 +1,24 @@
 ---
 layout: post
-title: About More Equal Animals
+title: About - More Equal Animals
 permalink: /about/
 image: /assets/img/lionlambcloud.jpg
-title: About - More Equal Animals
-desc: A blog discussing pratical approaches to secure life, liberty, property, and justice for all through the creation of true democracy.
-
+desc: >-
+  A blog discussing pratical approaches to secure life, liberty, property, and
+  justice for all through the creation of true democracy.
 content-type: eg
 content_blocks:
+  - _bookshop_name: hero
+    title: Join Fractally today!
+    description_html: >-
+      <p>This is a test of the <em><strong>emergency broadcasting
+      system</strong></em>. I repeat, this is only a test.</p>
+    image: /uploads/profile10.jpeg
+    image_alt: coffee
+    cta_button: Join now!
+    cta_button_link: https://fractally.com
+    works_button: It works!
+    works_button_link: '#'
 ---
 
 Welcome\! I created the _More Equal Animals_ blog to disseminate thoughts on how to secure life, liberty, property and justice for all. While moreequalanimals.com started in 2020, I have been on this mission since 2006 when I decided to take responsibility for my understanding of the world around me and stop relying upon the opinions of friends and family. I have aggregated my blog posts going back to 2014 from multiple platforms including: \[\[bytemaster.github.io::https://bytemaster.github.io\]\], \[\[dan@steemit::https://steemit.com/@dan/posts\]\], \[\[dantheman@steemit::https://steemit.com/@dantheman/posts\]\], \[\[bytemaster@medium.com::https://medium.com/@bytemaster\]\], and \[\[dan@voice.com::https://app.voice.com/profile/dan\]\].
