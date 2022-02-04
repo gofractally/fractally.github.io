@@ -94,6 +94,11 @@ mootrack('init', '014c9926a5f443258efb6e0ad47cb0d1');
             <main>
             <center><img src="{{page.image}}"/></center>
                 <h1>{{page.title}}</h1>
+                {% comment %}
+                # The `page` include loops through all content_blocks and renders them.
+                # Using a bookshop tag here means that live previewing will catch new components.
+                {% endcomment %}
+                {% bookshop_include page content_blocks=page.content_blocks %}
                 {%- include content.html -%}
                 {%- include backlinks.html -%}
                 {%- include related.html -%}
@@ -112,6 +117,11 @@ mootrack('init', '014c9926a5f443258efb6e0ad47cb0d1');
         });
     </script>
     {%- include contextmenu.html -%}
+
+    {% comment %}
+    # This tag registers live previewing on CloudCannon.
+    # The script path matches the `bookshop-live` command in package.json.
+    {% endcomment %}
     {% bookshop_live assets/bookshop-live.js %}
 </body>
 </html>

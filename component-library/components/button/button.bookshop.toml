@@ -1,8 +1,10 @@
 [component]
-structures = []
-label = "button"
-description = ""
-icon = ""
-tags = []
+structures = [ "content_blocks" ]
+label = "Button"
+description = "A plain button component"
+icon = "wysiwyg"
+tags = ["Button"]
 
 [props]
+link_url = "https://fractally.com"
+text = "Fractally.com"
