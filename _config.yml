@@ -24,6 +24,14 @@ bookshop_locations:
 exclude:
   - node_modules
 
+include:
+  - _cloudcannon # This exposes the live editing data to CloudCannon
+
+# The rest of this array structure will be populated by the bookshop-array-structures plugin.
+_array_structures:
+  content_blocks:
+    style: modal
+
 markdown: kramdown
 
 twitter:
